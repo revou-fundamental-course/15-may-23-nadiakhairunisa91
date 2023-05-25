@@ -1,0 +1,147 @@
+body{
+    background-color: lightgray;
+    
+    
+}
+
+
+header {
+    background-color: #05baf5;
+    text-align: center;
+ 
+    padding: 25px 25px;
+}
+.katik{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.kalkulator{
+    font-size: 20px;
+    font-family: fantasy;
+    color:rgb(160, 151, 151);
+    font-weight: bold;
+}
+.figure{
+    size: 50px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.selamat{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.input{
+    display: block;
+    height: auto;
+    padding: 10px;
+    width: 500px;
+  
+}
+.card{
+    background-color: whitesmoke;
+    
+    
+}
+button.btn-hitung{
+    display: flex;
+    background-color: #023299c5;
+    color: white;
+    padding: 10px;
+    margin-left: 280px;
+   
+    box-shadow: 1px 1px 1px grey;
+   
+}
+button.btn-reset{
+    scroll-margin-left: 100px;
+    background-color: rgb(235, 149, 22);
+    color: white;
+    padding: 10px;
+    margin-left: 500px;
+}
+.container{
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    flex-direction: row;
+  display: inline-block;
+
+   
+    
+}
+
+.garistepi{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    border: 1px solid rgb(59, 128, 231);
+    padding: 10px 30px 10px 30px;
+}
+.conatainer-row{
+    flex-direction: row;
+}
+
+.hai{
+
+    text-align: center;
+}
+
+
+.persegi{
+    color: white;
+    background-color: #023299c5;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 15px;
+
+}
+.p{
+    color: #023299c5;
+    background-color: white;
+    text-align: center;
+    padding: 15px 15px 10PX 10PX;
+}
+.Luas{
+    color: white;
+    background-color: #023299c5;
+    text-align: center;
+    font-size: 20px;
+    padding: 45px 25px;
+
+    
+}
+.rumus{
+    text-align: center;
+    font-weight: bold;
+}
+.hlp{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.child{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(11, 247, 70);
+    margin-left: 5px;
+
+}
+.keliling{
+    display: block;
+    height: auto;
+    padding: 10px;
+    width: 550px;
+  
+}
+.judul{
+    color: white;
+    background-color: #023299c5;
+    text-align: center;
+    font-size: 20px;
+    padding: 45px 25px;;
+}
