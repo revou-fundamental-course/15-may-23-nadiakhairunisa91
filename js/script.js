@@ -16,7 +16,7 @@ function reset(){
     laus.innerHTML="";
 }
 //fungsi button reset yang bagian luas//
-/
+
 function resetkeliling(){
     var sisi = document.getElementById("sisi-keliling").value 
     var keliling = document.getElementById("output-keliling")
