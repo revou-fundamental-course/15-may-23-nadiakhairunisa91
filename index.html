@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body>
+    <header>
+        <span class="katik">Katik</span>  <span class="kalkulator">Kalkulator Matematik</span>
+
+    </header>
+    <main>
+       <br>
+        
+
+<div class="card">
+
+    <div class="container">
+        <div class="container-row">
+<!--ucapan selamat datang setelah memasuki katik-->
+            <div class="selamat">Welcome To Katik</div>
+            <p class="hai">Hai Sobat,Selamat datang di Katik:)<br>
+            Sebuah Web apps sederhana yang berfungsi untuk
+                menghitung nilai luas dan keliling bangun datar
+            </p>
+         
+            <div class="persegi">persegi</div>
+            <div class="p">p.panjang</div>
+            <div class="Luas">Luas persegi</div>
+            <div class="garistepi">
+                <!--gambar persegi-->
+        
+                <img src="https://dikablogedu.files.wordpress.com/2017/09/bujur-sangkar.jpg?w=181&h=208" style="display:block; margin:auto;">
+            
+                    <div class="formula-description">
+                        <p>Rumus Luas Persegi Yaitu:</p>
+                        <div class="rumus"><P>
+                            
+                            L = S X S</P>
+                        </div>
+                       <div>
+                       
+                        <p>Di Mana :</p>
+                        <p>L = Luas</p>
+                        <p>S = Sisi</p>
+            
+                    </div>
+                    <div >
+                        <hr>
+                        <div class="hlp"><h3>Hitung Luas Persegi</h3></div>
+                        
+                        <input name="sisi-luas" id="sisi-luas" class="input" type="number" placeholder="Nilai Sisi" reqiured>
+                        <p id="output-luas"></p>
+                        <button class="btn-hitung" name="hitung-luas"  onclick="hitungluas();">Hitung</button>
+                        <br>
+                        <button class="btn-reset" name="reset_luas" onclick="reset();">Reset</button>
+                    </div>
+                    </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <!-- membedakan kelas agar bisaa terbagi dua-->
+    <div class="child">
+        
+        <div class="judul">Keliling persegi</div>
+        <div class="garistepi">
+    
+            <!--gambar persegi-->
+            <img src="https://dikablogedu.files.wordpress.com/2017/09/bujur-sangkar.jpg?w=181&h=208" style="display:block; margin:auto;">
+        
+                <div class="formula-description">
+                    <p>Rumus Keliling Persegi Yaitu:</p>
+                    <div class="rumus"><P>
+                        
+                        K = 4 X S</P>
+                    </div>
+                   <div>
+                   
+                    <p>Di Mana :</p>
+                    <p>K = Keliling</p>
+                    <p>S = Sisi</p>
+        
+                </div>
+                <div >
+                    <hr>
+                    <div class="hlp"><h3>Hitung Keliling Persegi</h3></div>
+                    <!-- untuk input nilai keliling-->
+                    <input name="sisi-keliling" id="sisi-keliling" class="keliling" type="number" placeholder="Nilai Sisi" reqiured>
+                    <p id="output-keliling"></p>
+                    <!--untuk output-->
+                    <button class="btn-hitung" name="hitung-keliling"  onclick="hitungkeliling();">Hitung</button>
+                    <br>
+                    <button class="btn-reset" name="reset_keliling" onclick="resetkeliling();">Reset</button>
+                </div>
+                </div>
+            
+        </div>
+    </div>
+    
+    </div>
+    
+    </div>
+
+        
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
