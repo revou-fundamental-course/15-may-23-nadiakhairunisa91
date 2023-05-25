@@ -16,7 +16,7 @@ function reset(){
     laus.innerHTML="";
 }
 //fungsi button reset yang bagian luas//
-/
+
 function resetkeliling(){
     var sisi = document.getElementById("sisi-keliling").value 
     var keliling = document.getElementById("output-keliling")
@@ -31,7 +31,7 @@ function hitungkeliling()
     var keliling = document.getElementById("output-keliling")
     var hasil = 4 * sisi
 
-keliling.innerHTML="k = 4 X S<br> K =  "+4+" x "+sisi+"<br> K = "+hasil;
+keliling.innerHTML="k = 4 X S<br> K = "+4+" x "+sisi+"<br> K = "+hasil;
 }
 function reser(){
     
